@@ -14,7 +14,7 @@ struct ContentView: View {
                 ZStack{
                     Color("Background")
                         .ignoresSafeArea()
-                    ScrollView{
+//                    ScrollView{
                         VStack(spacing: 0){
                             //MARK: Thermometer
                             Thermometer()
@@ -28,7 +28,7 @@ struct ContentView: View {
                                  ClimateCard(iconName: "thermometer", index: "Outside temp.", measure: "-10°")
                             }
                         }
-                    }
+//                    }
                 }
                 .navigationTitle("Thermostat")
                 .navigationBarTitleDisplayMode(.inline)
