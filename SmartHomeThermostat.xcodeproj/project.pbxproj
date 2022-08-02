@@ -13,6 +13,11 @@
 		8088C0AC2899B750001C632C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8088C0AB2899B750001C632C /* Preview Assets.xcassets */; };
 		8088C0B32899B834001C632C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0B22899B834001C632C /* Extensions.swift */; };
 		8088C0B52899B966001C632C /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0B42899B966001C632C /* ClimateCard.swift */; };
+		8088C0B72899BD2C001C632C /* Thermometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0B62899BD2C001C632C /* Thermometer.swift */; };
+		8088C0B92899BD68001C632C /* ThermometherPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0B82899BD68001C632C /* ThermometherPlaceHolderView.swift */; };
+		8088C0BB2899C127001C632C /* ThermometerDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0BA2899C127001C632C /* ThermometerDialView.swift */; };
+		8088C0BD2899C51B001C632C /* ThermometerSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0BC2899C51B001C632C /* ThermometerSummaryView.swift */; };
+		8088C0BF2899C690001C632C /* ThermometerScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088C0BE2899C690001C632C /* ThermometerScaleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		8088C0AB2899B750001C632C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8088C0B22899B834001C632C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8088C0B42899B966001C632C /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
+		8088C0B62899BD2C001C632C /* Thermometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermometer.swift; sourceTree = "<group>"; };
+		8088C0B82899BD68001C632C /* ThermometherPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometherPlaceHolderView.swift; sourceTree = "<group>"; };
+		8088C0BA2899C127001C632C /* ThermometerDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerDialView.swift; sourceTree = "<group>"; };
+		8088C0BC2899C51B001C632C /* ThermometerSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerSummaryView.swift; sourceTree = "<group>"; };
+		8088C0BE2899C690001C632C /* ThermometerScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerScaleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				8088C0AA2899B750001C632C /* Preview Content */,
 				8088C0B22899B834001C632C /* Extensions.swift */,
 				8088C0B42899B966001C632C /* ClimateCard.swift */,
+				8088C0B62899BD2C001C632C /* Thermometer.swift */,
+				8088C0B82899BD68001C632C /* ThermometherPlaceHolderView.swift */,
+				8088C0BA2899C127001C632C /* ThermometerDialView.swift */,
+				8088C0BC2899C51B001C632C /* ThermometerSummaryView.swift */,
+				8088C0BE2899C690001C632C /* ThermometerScaleView.swift */,
 			);
 			path = SmartHomeThermostat;
 			sourceTree = "<group>";
@@ -143,9 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8088C0B72899BD2C001C632C /* Thermometer.swift in Sources */,
 				8088C0A72899B74E001C632C /* ContentView.swift in Sources */,
 				8088C0B52899B966001C632C /* ClimateCard.swift in Sources */,
+				8088C0BF2899C690001C632C /* ThermometerScaleView.swift in Sources */,
 				8088C0B32899B834001C632C /* Extensions.swift in Sources */,
+				8088C0BD2899C51B001C632C /* ThermometerSummaryView.swift in Sources */,
+				8088C0B92899BD68001C632C /* ThermometherPlaceHolderView.swift in Sources */,
+				8088C0BB2899C127001C632C /* ThermometerDialView.swift in Sources */,
 				8088C0A52899B74E001C632C /* SmartHomeThermostatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
