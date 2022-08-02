@@ -10,10 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationView{
+                ZStack{
+                    Color("Background")
+                        .ignoresSafeArea()
+                }
+                .navigationTitle("Thermostat")
+                .navigationBarTitleDisplayMode(.inline)
+            }.navigationViewStyle(.stack)
         }
     }
 }
@@ -21,5 +25,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
